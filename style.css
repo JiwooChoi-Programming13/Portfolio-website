@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --flexbox: flex;
+    --centered: center;
+}
+
+body {
+    background-color: orange;
+    width: 100%;
+}
+
+ul {
+    display: var(--flexbox);
+}
+
+li {
+    font-size: 20px;
+    margin-right: 4px;
+    padding: 18px;
+    list-style: none;
+}
+
+li:nth-child(1) {
+    margin: 0 auto 0 18px;
+}
+

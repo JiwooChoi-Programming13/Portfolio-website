@@ -30,14 +30,11 @@ main {
     padding: 20px;
 }
 
-h1, p {
-    color: white;
-}
 
 a {
-    color: white;
+    color: black;
 }
 
 a:hover {
-    color: lightblue;
+    color: darkslategray;
 }

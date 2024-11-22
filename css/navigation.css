@@ -2,14 +2,18 @@
     --flexbox: flex;
 }
 
-nav {
-    margin-top: 3vh;
-    margin-bottom: 2vh;
+header {
+    background-color: lightcoral;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    position: sticky;
 }
 
 ul {
+    align-items: center;
     display: var(--flexbox);
     gap: 10px;
+    justify-content: space-between;
     margin-right: 1vw;
 }
 
@@ -30,7 +34,7 @@ li:nth-child(1) {
 
 li:hover {
     background-color: red;
-    font-weight: bold
+    font-weight: bold;
 }
 
 li:active {

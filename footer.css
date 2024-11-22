@@ -1,0 +1,16 @@
+:root {
+    --centered: center;
+    --flexbox: flex;
+}
+
+footer {
+    align-items: var(--centered);
+    background-color: wheat;
+    display: var(--flexbox);
+    height: 10vh;
+    justify-content: var(--centered);
+}
+
+footer p {
+    color: black;
+}

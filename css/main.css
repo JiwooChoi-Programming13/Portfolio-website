@@ -5,25 +5,13 @@
     align-items: var(--centered);
     display: var(--flexbox);
     flex-direction: column;
+    line-height: 1.6;
     margin-bottom: 10vh;
-    width: 50vw;
-}
-
-.image-container {
-    display: flex;
-    gap: 10px;
-    width: 13vw;
-}
-
-.image-container a {
-    text-decoration: none;
 }
 
 main {
-    align-items: var(--centered);
-    display: var(--flexbox);
-    flex-direction: column;
     padding: 20px;
+    width: 100%;
 }
 
 h1 {
@@ -37,4 +25,18 @@ a {
 
 a:hover {
     color: darkslategray;
+}
+
+.contact-container {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image-container a {
+    text-decoration: none;
 }

@@ -14,18 +14,15 @@ body {
     width: 100%;
 }
 
-ul {
+main {
     display: var(--flexbox);
+    justify-content: var(--centered);
+    padding: 20px;
 }
 
-li {
-    font-size: 20px;
-    margin-right: 4px;
-    padding: 18px;
-    list-style: none;
+.title-container {
+    align-items: var(--centered);
+    display: var(--flexbox);
+    flex-direction: column;
+    width: 50vw;
 }
-
-li:nth-child(1) {
-    margin: 0 auto 0 18px;
-}
-

@@ -9,7 +9,7 @@ ul {
 li {
     border-radius: 12px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     list-style: none;
     margin-right: 18px;
     margin-top: 18px;
@@ -23,8 +23,11 @@ li:nth-child(1) {
     margin: 18px auto 0 3vw;
 }
 
+li:nth-child(3) {
+    width: 6vw;
+}
+
 li:hover {
-    border: 1px solid black;
     background-color: red;
     font-weight: bold
 }

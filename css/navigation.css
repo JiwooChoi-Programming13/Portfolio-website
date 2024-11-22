@@ -4,7 +4,7 @@
 
 header {
     background-color: lightcoral;
-    padding-top: 3vh;
+    padding-top: 2vh;
     padding-bottom: 2vh;
     position: sticky;
 }
@@ -25,7 +25,6 @@ li {
     padding: 8px;
     text-align: center;
     transition: background-color 1s;
-    width: 5vw;
 }
 
 li:nth-child(1) {

@@ -5,24 +5,41 @@
 }
 
 :root {
-    --flexbox: flex;
     --centered: center;
+    --flexbox: flex;
 }
 
 body {
-    background-color: orange;
+    background-color: rgb(45, 45, 45);
     width: 100%;
 }
 
-main {
-    display: var(--flexbox);
-    justify-content: var(--centered);
-    padding: 20px;
-}
-
-.title-container {
+.title-container,
+.profile-container,
+.projects-container,
+.contact-container {
     align-items: var(--centered);
     display: var(--flexbox);
     flex-direction: column;
+    margin-bottom: 10vh;
     width: 50vw;
+}
+
+main {
+    align-items: var(--centered);
+    display: var(--flexbox);
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1, p {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: lightblue;
 }

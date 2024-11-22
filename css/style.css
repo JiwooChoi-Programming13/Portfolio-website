@@ -30,7 +30,11 @@ aside {
 }
 
 .image-container {
-    width: 20vw;
+    width: 13vw;
+}
+
+.image-container a {
+    text-decoration: none;
 }
 
 main {

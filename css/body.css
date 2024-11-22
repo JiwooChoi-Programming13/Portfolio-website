@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --centered: center;
+    --flexbox: flex;
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+}

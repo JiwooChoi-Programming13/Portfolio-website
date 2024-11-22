@@ -25,6 +25,14 @@ body {
     width: 50vw;
 }
 
+aside {
+    position: fixed;
+}
+
+.image-container {
+    width: 20vw;
+}
+
 main {
     align-items: var(--centered);
     display: var(--flexbox);

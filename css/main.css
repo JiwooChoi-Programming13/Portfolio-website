@@ -40,3 +40,8 @@ a:hover {
 .image-container a {
     text-decoration: none;
 }
+
+.languages-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

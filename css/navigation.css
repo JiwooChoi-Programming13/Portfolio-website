@@ -3,6 +3,7 @@ header {
     padding-top: 2vh;
     padding-bottom: 2vh;
     position: sticky;
+    top: 0px;
 }
 
 ul {

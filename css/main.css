@@ -41,6 +41,17 @@ a:hover {
     text-decoration: none;
 }
 
+.info-container {
+    align-items: var(--centered);
+    display: var(--flexbox);
+    flex-direction: column;
+    margin: 0 20vw 60px 20vw;
+}
+
+.top-info-container {
+    margin-top: 4vh;
+}
+
 .languages-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

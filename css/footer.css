@@ -1,5 +1,6 @@
 footer {
     align-items: var(--centered);
+    background-color: blanchedalmond;
     display: var(--flexbox);
     height: 10vh;
     justify-content: var(--centered);
@@ -7,4 +8,6 @@ footer {
 
 footer p {
     color: black;
+    font-size: 18px;
+    font-weight: bold;
 }

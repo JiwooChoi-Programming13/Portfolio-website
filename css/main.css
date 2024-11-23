@@ -52,7 +52,21 @@ a:hover {
     margin-top: 4vh;
 }
 
-.languages-content {
+.frontend-languages,
+.backend-languages,
+.future-languages {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18px;
+    margin-bottom: 4vh;
+    margin-top: 10px;
+}
+
+.backend-languages,
+.future-languages {
+    grid-template-columns: 1fr 1fr;
+}
+
+.future-languages {
+    column-gap: 20px;
 }

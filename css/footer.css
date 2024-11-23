@@ -1,6 +1,5 @@
 footer {
     align-items: var(--centered);
-    background-color: wheat;
     display: var(--flexbox);
     height: 10vh;
     justify-content: var(--centered);

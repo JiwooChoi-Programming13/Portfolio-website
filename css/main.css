@@ -53,13 +53,17 @@ h1 {
     text-decoration: none;
 }
 
+.profile-container .top-info-container {
+    margin-top: 3vh;
+}
+
 .info-container {
     align-items: var(--centered);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
     display: var(--flexbox);
     flex-direction: column;
-    margin-top: 4vh;
+    margin-top: 12vh;
     padding: 20px;
     width: 50%;
 }

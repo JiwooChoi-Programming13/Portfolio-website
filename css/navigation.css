@@ -13,24 +13,26 @@ nav ul {
     margin-right: 1vw;
 }
 
-nav li {
+nav a {
     border-radius: 12px;
+    color: black;
     cursor: pointer;
     font-size: 16px;
     list-style: none;
     padding: 8px;
+    text-decoration: none;
     transition: background-color 1s;
 }
 
-nav li:nth-child(1) {
+nav a:nth-child(1) {
     margin: 0 auto 0 2vw;
 }
 
-nav li:hover {
+nav a:hover {
     background-color: red;
     font-weight: bold;
 }
 
-nav li:active {
+nav a:active {
     opacity: 0.6;
 }

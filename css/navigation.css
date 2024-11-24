@@ -5,7 +5,7 @@ header {
     top: 0px;
 }
 
-ul {
+nav ul {
     align-items: center;
     display: var(--flexbox);
     gap: 10px;
@@ -13,7 +13,7 @@ ul {
     margin-right: 1vw;
 }
 
-li {
+nav li {
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
@@ -22,15 +22,15 @@ li {
     transition: background-color 1s;
 }
 
-li:nth-child(1) {
+nav li:nth-child(1) {
     margin: 0 auto 0 2vw;
 }
 
-li:hover {
+nav li:hover {
     background-color: red;
     font-weight: bold;
 }
 
-li:active {
+nav li:active {
     opacity: 0.6;
 }

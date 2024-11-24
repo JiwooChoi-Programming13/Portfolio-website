@@ -97,7 +97,31 @@ h1 {
     padding: 15px;
 }
 
+@media (max-width: 600px) {
+    .frontend-languages,
+    .backend-languages,
+    .future-languages {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+}
+
 @media (max-width: 500px) {
+    .title-container,
+    .profile-container,
+    .projects-container,
+    .contact-container {
+        font-size: 12px;
+    }
+    
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
     .info-container {
         font-size: 12px;
         font-weight: bold;
@@ -110,11 +134,26 @@ h1 {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+    .info-container {
+        font-size: 10px;
+    }
+
+    .languages-content {
+        font-size: 8px;
+        padding: 8px;
+    }
+
     .frontend-languages,
     .backend-languages,
     .future-languages {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         row-gap: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    h2 {
+        font-size: 14px;
     }
 }

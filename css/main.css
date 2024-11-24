@@ -47,21 +47,12 @@ h1 {
     margin-bottom: 20px;
 }
 
-.image-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.image-container a {
-    text-decoration: none;
-}
-
 .profile-container .top-info-container {
     margin-top: 3vh;
 }
 
-.info-container {
+.info-container,
+.projects-item {
     align-items: var(--centered);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
@@ -99,6 +90,21 @@ h1 {
     flex-direction: column;
     font-size: 16px;
     padding: 15px;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image-container a {
+    text-decoration: none;
 }
 
 @media (max-width: 750px) {

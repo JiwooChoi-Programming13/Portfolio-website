@@ -51,6 +51,10 @@ h1 {
     margin-top: 3vh;
 }
 
+.bottom-info-container {
+    margin-bottom: 10vh;
+}
+
 .info-container,
 .projects-item {
     align-items: var(--centered);
@@ -95,6 +99,11 @@ h1 {
 .projects-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.projects-item {
+    width: 60%;
 }
 
 .image-container {
@@ -107,20 +116,22 @@ h1 {
     text-decoration: none;
 }
 
-@media (max-width: 750px) {
-    .info-container {
-        font-size: 12px;
-        font-weight: bold;
-        width: 80%;
-    }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .frontend-languages,
     .backend-languages,
     .future-languages {
         grid-template-columns: 1fr 1fr;
         row-gap: 10px;
+    }
+    
+    .projects-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 830px) {
+    .info-container {
+        width: 50%;
     }
 }
 
@@ -141,11 +152,6 @@ h1 {
         font-size: 20px;
     }
 
-    .info-container {
-        font-size: 14px;
-        font-weight: bold;
-    }
-
     .languages-content {
         font-size: 10px;
         padding: 8px;
@@ -159,21 +165,19 @@ h1 {
 
 @media (max-width: 480px) {
     .info-container {
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: bold;
     }
-
-    .languages-content {
-        font-size: 8px;
-        padding: 8px;
-    }
-
+    
     .frontend-languages,
     .backend-languages,
     .future-languages {
         grid-template-columns: 1fr;
         row-gap: 10px;
     }
-}
 
-@media (max-width: 400px) {
+    .languages-content {
+        font-size: 8px;
+        padding: 8px;
+    }
 }

@@ -6,7 +6,7 @@ header {
 }
 
 nav ul {
-    align-items: center;
+    align-items: var(--centered);
     display: var(--flexbox);
     gap: 10px;
     justify-content: space-between;
